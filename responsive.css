@@ -4,6 +4,13 @@ html {
     font-size: 50%;
 }
 
+/* @media (min-width: 630px) {
+    .hero .container .summary{
+       width: 5px;
+        
+    }
+} */
+
 @media (max-width: 630px) {
 
     .hero .container {
@@ -18,23 +25,31 @@ html {
     .form-group {
         display: block;
     }
+
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:auto;
+        width:100%
+    }
+
 }
 
 @media (max-width: 540px) {
     nav {
         display: none;
     }
-
-    .one,
+    
+    /* .one,
     .two,
     .three {
         background-color: #fff;
         height: 5px;
         width: 100%;
         margin: 6px auto;
-
         transition-duration: 0.3s;
-    }
+    } */
 
     .menu-toggle {
         width: 40px;
@@ -101,4 +116,7 @@ html {
     #form h3 {
         font-size: 2rem;
     }
+    
+    
 }
+
